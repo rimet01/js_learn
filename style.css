@@ -5,6 +5,7 @@
     text-decoration: none;
     color: white;   
     text-decoration-color: white;
+    display: grid;
 }
 
 body {
@@ -12,4 +13,29 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+nav {
+    display: inline;
+    
+    text-decoration: none;
+    text-align: center;
+    grid-area: nav;
+    
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+
+aside {
+    grid-area: aside;
+    padding: 20px;
+    
+    border-radius: 10px;
 }
