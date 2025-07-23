@@ -15,7 +15,14 @@ function calculateTotal() {
     let result = C1 + C2;
     // Show the result //
     tbxResult.value = result;
+
+    if (result >=0) {
+        tbxResult.style.backgroundColor = "lightgreen"; // Set background color to light green for positive results
+    } else {
+        tbxResult.style.backgroundColor = "lightcoral"; // Set background color to light coral for negative results
+    }
     
-
-
 }
+
+btnTotal.onclick = calculateTotal; // Assign the calculateTotal function to the button click event
+tbxResult.onclick = calculateTotal; // Also call calculateTotal when the result field is clicked
