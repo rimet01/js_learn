@@ -2,5 +2,14 @@
     background-color: black;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
+    color: white;   
     text-decoration-color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.889);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
