@@ -2,9 +2,9 @@
     background-color: black;
     padding: 10px;
     text-align: center;
-    text-decoration: none;
-    color: white;   
     text-decoration-color: white;
+    text-decoration: none;
+    
     display: grid;
 }
 
@@ -12,6 +12,7 @@ body {
     background-color: rgba(0, 0, 0, 0.889);
     color: white;
     text-align: center;
+    text-decoration: none;
     padding: 20px;
 }
 
@@ -28,14 +29,14 @@ nav {
 
 main {
     grid-area: main;
-    padding: 20px;
+    padding: 100px;
     
     border-radius: 10px;
 }
 
 aside {
     grid-area: aside;
-    padding: 20px;
+    padding: px;
     
     border-radius: 10px;
 }
