@@ -1,11 +1,18 @@
-#menu {
+#menu li {
     background-color:rgba(239, 217, 217, 0.488);
     padding: 10px;
     text-align: center;
     text-decoration-color: white;
     text-decoration: none;
-    
-    display: grid;
+    list-style: none;
+    display: inline;
+
+}
+
+#menu ul {
+    background-color: rgba(239, 217, 217, 0.488);
+    padding: 10px
+    ;
 }
 
 body {
