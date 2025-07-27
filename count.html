@@ -6,7 +6,7 @@
     <title>Counting numbers</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="JavaScript" href="script.js">
+    
     
 </head>
 <body>
@@ -30,11 +30,16 @@
     </nav>
 
     <main>
-        <h1>JavaScript learning document</h1>
-        
-        <h3>Welcome!</h3>
-
-        <p>This is a simple JavaScript learning document.</p>
+        <div class="calculator">
+            <h1>Counting two numbers</h1>
+            <form>
+                <input type="number" id="firstNumber" placeholder="First number" required>
+                <input type="number" id="secondNumber" placeholder="Second number" required>
+                <input type="number" id="result" placeholder="Result" readonly>
+                <button id="count" type="button">Count</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
 
     </main>
 
