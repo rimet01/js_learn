@@ -11,3 +11,23 @@ function main() {
         window.alert("N1 is smaller");
     }
 }
+
+
+- - -
+/* Its the same... */
+
+function main() {
+    var a, b, c;
+
+    window.alert("Number 1: ");
+    a = Number(window.prompt('Enter a value for a'));
+    window.alert("Number 2: ");
+    b = Number(window.prompt('Enter a value for b'));
+    if (a > b) {
+        window.alert(a);
+    } else {
+        window.alert(b);
+    }
+    while (a == 0) {
+    }
+}
