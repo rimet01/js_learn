@@ -31,3 +31,13 @@ function main() {
     while (a == 0) {
     }
 }
+
+- - -
+/* Output 10 numbers */
+function main() {
+    var n;
+
+    for (n = 1; n <= 10; n++) {
+        window.alert(n);
+    }
+}
