@@ -41,3 +41,9 @@ function main() {
         window.alert(n);
     }
 }
+
+- - -
+function main() {
+    let a, b;
+    
+    window.alert
