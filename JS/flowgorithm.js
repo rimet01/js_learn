@@ -47,3 +47,15 @@ function main() {
     let a, b;
     
     window.alert
+
+- - -
+
+function main() {
+    var n;
+
+    for (n = 1; n <= 10; n += 2) {
+        window.alert(n);
+    }
+}
+
+/* Main -> integer n -> n = 1 to 10 step 2 -> output n */
