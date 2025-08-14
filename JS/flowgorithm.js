@@ -59,3 +59,15 @@ function main() {
 }
 
 /* Main -> integer n -> n = 1 to 10 step 2 -> output n */
+
+- - -
+/* Turtle graphics */
+
+// Flowgorithm currently doesn't generate code for turtle graphics.
+function main() {
+    var a;
+
+    for (a = 1; a <= 360; a++) {
+        // Draw a
+    }
+}
