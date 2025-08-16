@@ -15,3 +15,13 @@ function main() {{
     }
         
 }
+/* 1. definition 
+   2. value */
+
+- - -
+
+function main() {
+    var a, b;
+
+    window.alert("Enter first number: ");
+    a = Number(window.prompt("Enter first number: "));
